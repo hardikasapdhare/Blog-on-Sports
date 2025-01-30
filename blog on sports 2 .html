@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sports Blog</title>
+    <style>/* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        
+        header .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        header h1 {
+            font-size: 2em;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        nav ul li {
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        /* Main Content */
+        main {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .hero {
+            width: 70%;
+        }
+        
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        
+        .blog-posts {
+            width: 25%;
+        }
+        
+        .blog-posts .post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .blog-posts .post h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        .blog-posts .post p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .blog-posts .post a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .sidebar {
+            width: 20%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sidebar h3 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        
+        .sidebar ul {
+            list-style: none;
+        }
+        
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        
+        .sidebar ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sports Blog</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Basketball</a></li>
+                    <li><a href="#">Tennis</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Latest Sports Updates</h2>
+            <p>Your daily dose of sports news, scores, and highlights.</p>
+        </section>
+
+        <section class="blog-posts">
+            <div class="post">
+                <h3>Football: World Cup Qualifiers</h3>
+                <p>January 29, 2025</p>
+                <p>Teams around the world are competing to secure a spot in the next World Cup. With thrilling performances and high stakes, it's an exciting time for football fans...</p>
+                <a href="#">Read more</a>
+            </div>
+
+            <div class="post">
+                <h3>Basketball: NBA All-Star Weekend</h3>
+                <p>January 28, 2025</p>
+                <p>The NBA All-Star Weekend is just around the corner, and fans are eagerly anticipating the star-studded events. From the Slam Dunk Contest to the main All-Star Game...</p>
+                <a href="#">Read more</a>
+            </div>
+
+            <div class="post">
+                <h3>Tennis: Australian Open Highlights</h3>
+                <p>January 27, 2025</p>
+                <p>The Australian Open has seen some incredible matches this year. With thrilling five-set battles and stunning upsets, tennis fans are in for an unforgettable finish...</p>
+                <a href="#">Read more</a>
+            </div>
+        </section>
+
+        <section class="sidebar">
+            <h3>Recent Comments</h3>
+            <ul>
+                <li><a href="#">Great game! Can’t wait for the final!</a></li>
+                <li><a href="#">Who do you think will win the NBA All-Star Game?</a></li>
+                <li><a href="#">Tennis has been amazing this year!</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sports Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
